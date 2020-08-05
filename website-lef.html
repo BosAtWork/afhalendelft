@@ -1,0 +1,407 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover">
+		<meta name="description" content="Delft heeft heel veel bezorgrestaurants. Dit zijn de vijf bezorgrestaurants met de hoogste beoordeling op Thuisbezorgd.nl.">
+		<link rel="stylesheet" href="normalize.css">
+		<link rel="stylesheet" href="skeleton.css">
+		<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+		<style>
+		
+		html {
+		    line-height: 1.15;
+		}
+		body {
+			margin: 0;
+			background: #fefefe;
+			font-family: Open Sans,Helvetica Neue,HelveticaNeue,Helvetica,Arial,sans-serif;
+			font-weight: 400;
+			line-height: 1.5;
+			color: #0a0a0a;
+		}
+		
+		.top-content {
+			width:100%;
+			height:200px;
+			position:relative;
+			text-align:center;
+		}
+		.top-content img {
+			width:100%;
+			height:100%;
+			position:absolute;
+			top:0;
+			left:0;
+			filter: brightness(50%);
+			z-index:-999;
+		}
+		
+		.top-content h1 {
+			text-align:center;
+			font-size:40px;
+			color:white;
+			padding-top: 60px;
+			width:auto;
+			display:inline-block;
+			border-bottom:#da231f 8px solid;
+		}
+		
+		.top-content img {
+			width:100%;
+			height:100%;
+		}
+		
+		header {
+			padding:12px;
+		}
+		
+		header h1 {
+			font-size: 24px;
+			line-height: 23px;
+			margin-top: 5px;
+		}
+		
+		header hr {
+			margin-top:1rem;
+			margin-bottom:1rem;
+		}
+		
+		header summary {
+			font-weight:800;
+		}
+		
+		.author {
+			font-size: 12px;
+		}
+		
+		.page-selector {
+			width:300px;
+			height:44px;
+			
+			margin-bottom:1em;
+			margin-top:1em;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		
+		.page-selector button {
+			background-color: #ed7924;
+			border:none;
+			border-radius:0;
+			color:white;
+			display: inline-block;
+			vertical-align: top;
+		}
+		
+		.previous {
+			visibility: hidden;
+		}
+		
+		.page-selector span {
+			background-color:#5c514e;
+			color:white;
+			display: inline-block;
+			vertical-align: top;
+			height:38px;
+			line-height:38px;
+			padding-left:6px;
+			padding-right:6px;
+		}
+		
+		main {
+			width:100%;
+			padding:12px;
+		}
+		
+		section {
+			width:100%;
+		}
+		
+		section h2 {
+			font-size: 24px;
+		}
+		
+		section figure {
+			margin-left:0;
+			margin-right:0;
+		}
+		
+		section figure img {
+			width:100%;
+			height:400px;
+			object-fit: cover;
+		}
+		
+		section figure figcaption {
+			font-style: italic;
+			font-size: 10px;
+			color: #444;
+		}
+		
+		section hr {
+			margin-top:1rem;
+			margin-bottom:1rem;
+		}
+		
+		.company-reference {
+			width:100%;
+			height:200px;
+			background-color:lightgray;
+		}
+		
+		section .company-reference figure {
+			margin-top:20px;
+			margin-left:20px;
+			width:150px;
+			height:150px;
+			display:inline-block;
+			vertical-align: left;
+		}
+		
+		.company-reference figure img {
+			width:150px;
+			height:150px;
+			border-radius:75px;
+			object-fit:cover;
+		}
+		
+		.company-reference .info {
+			height:100%;
+			margin-top:20px;
+			display:inline-block;
+			vertical-align:top;
+		}
+		
+		.company-reference h3 {
+			font-size: 24px;
+			font-weight:800;
+			margin-top:12px;
+			margin-left:20px;
+		}
+		
+		.company-reference address {
+			margin-left:20px;
+		}
+		
+		.company-reference a {
+			display: block;
+			min-width: 200px;
+			background-color: gray;
+			color: white;
+			text-align: center;
+			font-weight: 600;
+			text-decoration: none;
+			padding: 6px;
+			margin-left: 20px;
+			margin-top: 20px;
+		}
+		</style>
+	</head>
+	
+	
+	<body>
+		<div class="top-content">	
+			<img src="https://lefrestaurant.nl/uploads/crop/5ece113ed4f8f_IMG_20200527_002620_771.jpg" />
+			<h1>Leuke thuis maaltijden in Delft</h1>
+		</div>
+	
+		<header>
+			<h1>Deze 5 bezorgrestaurants hebben de beste beoordeling op Thuisbezorgd.nl</h1>
+			<hr />
+			<span class="author">Door Frank Bos - 8 februari 2020</span>
+			<hr />
+			<summary>
+				Soms heb je écht geen zin om te koken. Superchill dus, dat Delft stikt van de bezorgrestaurants. 
+				Ooit afgevraagd waar je het beste je eten kunt bestellen in Delft? Dit zijn de vijf bezorgrestaurants 
+				met de hoogste beoordeling op Thuisbezorgd.nl. Of je nou zin hebt in burgers, pizza of Indonesisch, 
+				het zit er allemaal tussen!
+			</summary>
+		</header>
+		
+		<div class="page-selector">
+			<button class="previous"><</button>
+			<span>Pagina 1/5</span>
+			<button class="next">></button>
+		</div>
+		
+		<main>
+			<section>
+				<h2>Kaasfondue en gerechtjes om te delen bij LEF Restaurant Delft</h2>
+				<figure>
+					<img src="https://indebuurt.nl/delft/wp-content/uploads/2020/02/souvlaki-1649226_1280-1024x682.jpg"></img>
+					<figcaption>Afbeelding ter illustratie. Foto: Pixabay</figcaption>
+				</figure>
+				<p>
+				Strandtent in de zomer, knus eetcafé in de winter: dat is restaurant LEF op het Doelenplein. Geloof ons, op beide momenten is het hier héél goed toeven. Op zonnige dagen neem je plaats op één van de strandstoelen en kun je lekker mensen kijken. De borrel loopt geheid uit in een gezellige avond met jeu de boules op het plein en een cocktail of twee, drie. In de winter geniet je binnen van de beroemde kaasfondue, gegrilde vis, steak tartare of een geroosterd kippetje. Wanneer je ook komt: bij LEF restaurant Delft is het altijd gezellig. Meer weten? Kijk dan evenop de website!
+				</p>
+				
+				<hr />
+				
+				<small>Meer over LEF RESTAURANT ontdekken?</small>
+				<div class="company-reference">
+					<figure>
+						<img src="https://indebuurt.nl/delft/wp-content/uploads/2020/02/de-kleine-bezorg-griek.jpg" />
+					</figure>
+					<div class="info">
+						<h3>LEF RESTAURANT</h3>
+						<address>Doelenplein, Delft</address>
+						<a href="">Meer Informatie</a>
+					</div>
+				</div>
+			</section>
+		
+			<section>
+				<h2>Delftse Panda</h2>
+				<figure>
+					<img src="https://indebuurt.nl/delft/wp-content/uploads/2020/02/chinese-food-898499_1280.jpg"></img>
+					<figcaption>Afbeelding ter illustratie. Foto: Pixabay</figcaption>
+				</figure>
+				<p>Heb je trek in Chinees? De Delftse Panda is volgens de recensies op Thuisbezorgd dé plek om babi pangang, foe yong hai of complete rijsttafel te bestellen. Vooral de bezorgers worden geprezen: ze zijn snel én vriendelijk.</p>
+				
+				<hr />
+				
+				<small>Meer over Deltse Panda ontdekken?</small>
+				<div class="company-reference">
+					<figure>
+						<img src="https://indebuurt.nl/delft/wp-content/uploads/2018/10/delftse-panda.jpg" />
+					</figure>
+					<div class="info">
+						<h3>Deltse Panda</h3>
+						<address>Bikolaan 185, Delft</address>
+						<a href="">Meer Informatie</a>
+					</div>
+				</div>
+			</section>
+			
+			<section>
+				<h2>Akihito Sushi</h2>
+				<figure>
+					<img src="https://indebuurt.nl/delft/wp-content/uploads/2017/05/sushi-delft.jpg"></img>
+					<figcaption>Foto: Wikimedia</figcaption>
+				</figure>
+				<p>
+				Soms is kun je ontzettend veel zin hebben in sushi. Akihito sushi is gevestigd in Rijswijk, maar bezorgt ook gewoon in Delft. Je kunt hier complete sushi boxen bestellen met allerlei soorten sushi, maar je kunt ook zelf je maaltijd samenstellen. Volgens de beoordelingen is de sushi hier écht lekker en zijn de bezorgers op tijd.
+				</p>
+				<hr />
+				
+				<small>Meer over Akihito Sushi ontdekken?</small>
+				<div class="company-reference">
+					<figure>
+						<img src="https://indebuurt.nl/delft/wp-content/uploads/2017/05/sushi-delft.jpg" />
+					</figure>
+					<div class="info">
+						<h3>Akihito Sushi</h3>
+						<address>Heremstraat 39, Rijswijk</address>
+						<a href="">Meer Informatie</a>
+					</div>
+				</div>
+			</section>
+			
+			<section>
+				<h2>De Roti Shop</h2>
+				<figure>
+					<img src="https://indebuurt.nl/delft/wp-content/uploads/2016/07/rotishop_0.jpg"></img>
+				</figure>
+				<p>
+				Roti, pom en bara’s: je kunt ons ervoor wakker maken! De Roti Shop is volgens Thuisbezorgd één van de beste restaurants van Delft om Surinaams eten te bestellen. Als je hier bestelt, moet je het wel op tijd doen. De bezorging is volgens de recensies regelmatig te laat.
+				</p>
+				
+				<hr />
+				
+				<small>Meer over De Roti Shop ontdekken?</small>
+				<div class="company-reference">
+					<figure>
+						<img src="https://indebuurt.nl/delft/wp-content/uploads/2016/07/rotishop_0.jpg" />
+					</figure>
+					<div class="info">
+						<h3>De Roti Shop </h3>
+						<address>Nieuwstraat 4a, Delft</address>
+						<a href="">Meer Informatie</a>
+					</div>
+				</div>
+			</section>
+			
+			<section>
+				<h2>De Kleine Bezorg Griek</h2>
+				<figure>
+					<img src="https://indebuurt.nl/delft/wp-content/uploads/2020/02/souvlaki-1649226_1280-1024x682.jpg"></img>
+					<figcaption>Afbeelding ter illustratie. Foto: Pixabay</figcaption>
+				</figure>
+				<p>
+				Geen zin om te koken, maar wél in een lekkere grillschotel? De Kleine Bezorg Griek is jouw restaurant. Bestel een pita gros, mixed grill of ga voor een ovenschotel. In de recensies lezen we regelmatig dat het ‘weer heerlijk’ was.
+				</p>
+				
+				<hr />
+				
+				<small>Meer over De Kleine Bezorg Griek ontdekken?</small>
+				<div class="company-reference">
+					<figure>
+						<img src="https://indebuurt.nl/delft/wp-content/uploads/2020/02/de-kleine-bezorg-griek.jpg" />
+					</figure>
+					<div class="info">
+						<h3>De Kleine Bezorg Griek</h3>
+						<address>Oude Delft 97, Delft</address>
+						<a href="">Meer Informatie</a>
+					</div>
+				</div>
+			</section>
+		</main>
+		
+		<div class="page-selector">
+			<button class="previous"><</button>
+			<span>Pagina 1/5</span>
+			<button class="next">></button>
+		</div>
+		<hr />
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2455.608385716416!2d4.356402016588945!3d52.01401358135448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5b5c322a4f0d3%3A0x9938de2aad3f1359!2sLEF%20Restaurant%20%26%20Bar%20Delft!5e0!3m2!1sen!2snl!4v1596658310749!5m2!1sen!2snl" width="600" height="450" frameborder="0" style="border:0;width:100%;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+		
+		</footer>
+	</body>
+</html>
+
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+<script>
+var elem = document.querySelector('main');
+var flkty = new Flickity( elem, {
+  // options
+  cellAlign: 'left',
+  cellSelector: 'section',
+  contain: true,
+  pageDots: false,
+  prevNextButtons: false
+});
+
+var previousButtons = document.querySelectorAll(".previous")
+var nextButtons = document.querySelectorAll(".next")
+
+flkty.on( 'change', function( index ) {
+	var pageIndicators = document.querySelectorAll(".page-selector span")
+	
+	for (i = 0; i < previousButtons.length; ++i) {
+		previousButtons[i].style.visibility  = (index == 0) ? "hidden" : "visible";
+	}
+	
+	for (i = 0; i < nextButtons.length; ++i) {
+		nextButtons[i].style.visibility  = (index == flkty.cells.length - 1) ? "hidden" : "visible";
+	}
+	
+	for (i = 0; i < pageIndicators.length; ++i) {
+		pageIndicators[i].innerHTML  = "Pagina " + (index+1) + "/" + (flkty.cells.length);
+	}
+});
+
+
+for (i = 0; i < previousButtons.length; ++i) {
+	previousButtons[i].addEventListener('click', function(e) {
+		flkty.previous(false, false);
+	})
+}
+
+for (i = 0; i < nextButtons.length; ++i) {
+	nextButtons[i].addEventListener('click', function(e) {
+		flkty.next(false, false);
+	})
+}
+
+</script>
